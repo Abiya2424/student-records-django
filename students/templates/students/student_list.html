@@ -3,6 +3,7 @@
 <head><title>Student Records</title></head>
 <body>
   <h1>Student Records</h1>
+<p><a href="{% url 'student_add' %}">Add Student</a></p>
   <table border="1" cellpadding="8">
     <tr><th>Name</th><th>Email</th><th>Course</th><th>Year</th></tr>
     {% for s in students %}
